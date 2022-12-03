@@ -1,0 +1,110 @@
+/* Whole-Tag classes */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 50px;
+}
+
+header{
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+main{
+    /* margin: 20px 60px 50px 60px; */
+    margin: 1% 9% 50px 9%;
+}
+
+/* IDs */
+#logo{
+  display: block;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+#title{
+  font-size: 20px;
+  color: #00d900;
+  margin: auto;
+  padding: 1%;
+  text-align: center;
+}
+#allContent{
+  width: 60%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Classes */
+.navBar{
+  background-color: #00d900;
+  /* margin: 0 60px 0 60px; */
+  margin: 0 9% 0 9%;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+.chargeBar{
+  margin: 3px 0;
+  border: 1px solid #adadad;
+  border-radius: 20px;
+}
+
+.s1Charge{
+  background-color: #eb9f50;
+  margin: 0px 60% 0px 0;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.s2Charge{
+  background-color: #74bd00;
+  margin: 0px 20% 0px 0;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.s3Charge{
+  background-color: #d90050;
+  margin: 0px 80% 0px 0;
+  height: 20px;
+  border-radius: 20px;
+}
+
+/* Advanced Selectors */
+li::marker
+{
+    font-size: 1.5em;
+}
+
+button[type="navButton"]{
+  font-size: 10px;
+  padding: 0 1%;
+  margin: 1% 0 1% 0;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #7e7e7e;
+}
+div ul{
+  color: white;
+  list-style-type: square;
+  padding: 0 25px 0 25px;
+  margin: 16px 0 0 0;
+}
+
+ul span{
+  font-size: 11px;
+  position: relative;
+  left: -20px;
+}
